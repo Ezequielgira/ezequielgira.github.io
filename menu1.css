@@ -1,0 +1,62 @@
+*{
+    box-sizing: border-box;
+}
+
+:root{
+    --color_white: #fff;
+}
+
+.container, .cursos{
+    margin-right: auto;
+    margin-left: auto;
+}
+.menu{
+    width: 100%;
+    background-color: rgb(231, 228, 228);
+    }
+
+ul{
+    width: 100%;
+    padding: 0;
+    margin-top: 0;
+}
+
+li{
+    width: 100%;
+    list-style: none;
+    height: 48px;
+    border-bottom: 1px solid var(--color_white);
+    transition: .7s;
+    overflow: hidden;
+}
+.tareas, .tareas2{
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+    background-color: rgb(81, 82, 83);
+    color: var(--color_white);
+    cursor: pointer;
+}
+a{
+    text-decoration: none;
+    font-family: sans-serif;
+    color: var(--color_white);
+}
+i{
+    margin-right: 10px;
+}
+
+.fa-solid fa-angle-down{
+    transition: .3s;
+}
+.funciones, .funciones2{
+    padding: 10px;
+    font-weight: bold;
+    /*color: var(--color_white);*/
+}
+.scale{
+    height: auto;
+}
+.rotate{
+    transform: rotate(180deg);
+}
