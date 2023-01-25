@@ -1,9 +1,8 @@
 body{
     background-color: azure;
     font-family: 'Roboto', sans-serif;
-    margin: auto;
-    width: 80%;
-    /*border: solid;*/
+    margin: 10px;
+
 
 }
  
@@ -17,16 +16,24 @@ body{
 }
 
 h1{
-    font-size: 4em;
+    font-size: 3em;
+    display: flex;
+    justify-content: center;
+    margin: auto
+}
+h2{
+    display: flex;
+    justify-content: center;
+    margin: auto
 }
 
-.presentacion{
+/*.presentacion{
     display: grid;
     grid-template-rows: auto auto;
     gap: 10px;
-    /*border: solid*/
+    border: solid
     
-}
+}*/
 
 .informacion{
     display: grid;
@@ -43,16 +50,16 @@ h1{
 
 
 
-.containerstart{
+/*.containerstart{
     
     display: grid;
     grid-template-rows: 1fr;
-    /*border: solid;*/
+    border: solid;
 
-}
+}*/
 
 .imagen{
-    padding: 15px;
+    padding: 5px;
     grid-row: 1/4;
     display: flex;
     justify-content: center;
@@ -70,7 +77,7 @@ h1{
 
 
 
-.container{
+.container, .cursos{
     width: auto;
     background-color: #f1f1f1;
     box-shadow: 7px 13px 37px rgba(0, 0, 0, 0.5);
@@ -88,7 +95,7 @@ h1{
 }
 
 .experiencia, .capacitacion{
-    border: solid;
+    /*border: solid;*/
     padding: 5px;
 }
 .arriba{

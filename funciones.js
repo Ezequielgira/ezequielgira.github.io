@@ -36,10 +36,3 @@ boton.addEventListener('click', function(){
     })
 })
 
-/*$(document).ready(function(){
-    $('.arriba').click(function(){
-        $('body, html').animate({
-            scrollTop: '0px'
-        });
-    });
-});*/
