@@ -1,6 +1,6 @@
 document.getElementById('ver').onclick = function () {
     console.log("Va a mostrar info");
-    document.getElementById("info").innerHTML = "Direccion: Euskadi 532 - Lomas de Zamora (CP1832) <br> Fecha de nacimiento: 05/11/1988 <br> Email: ezequielgira@gmail.com"}
+    document.getElementById("info").innerHTML = "Lomas de Zamora (CP1832) <br> Fecha de Nacimiento: 05/11/1988 <br> Email: ezequielgira@gmail.com"}
 
     document.getElementById('ocultar').onclick = function () {
         console.log("Va a ocultar info");
